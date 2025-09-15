@@ -28,6 +28,46 @@
   @apply font-medium text-primary underline;
 }
 
+.react-markdown ol {
+  @apply ml-4 list-outside list-decimal whitespace-normal;
+}
+
+.react-markdown ul {
+  @apply ml-4 list-outside list-disc whitespace-normal;
+}
+
+.react-markdown li {
+  @apply py-1;
+}
+
 .react-markdown code {
   @apply rounded bg-muted px-1.5 py-0.5 font-mono text-sm
+}
+
+.react-markdown table {
+  @apply w-full border-collapse border border-border;
+}
+
+.react-markdown thead {
+  @apply bg-muted/80;
+}
+
+.react-markdown tbody {
+  @apply divide-y divide-border bg-muted/40;
+}
+
+.react-markdown tr {
+  @apply border-b border-border;
+}
+
+.react-markdown th {
+  @apply whitespace-nowrap px-4 py-2 text-left font-semibold text-sm;
+}
+
+.react-markdown td {
+  @apply px-4 py-2 text-sm;
+}
+
+.react-markdown blockquote {
+  @apply my-4 border-muted-foreground/30 border-l-4 pl-4 text-muted-foreground italic;
 }

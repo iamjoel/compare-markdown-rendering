@@ -1,7 +1,7 @@
 'use client';
 import BasicMarkdown from "@/components/basic-markdown";
 import UnterminatedBlockParsing from "@/components/unterminated-block-parsing";
-
+import GitHubFlavoredMarkdown from "@/components/github-flavored-markdown";
 export default function Home() {
   return (
     <div className="px-4">
@@ -10,6 +10,9 @@ export default function Home() {
 
       <h2>Unterminated Block Parsing</h2>
       <UnterminatedBlockParsing />
+
+      <h2>GitHub Flavored Markdown</h2>
+      <GitHubFlavoredMarkdown />
     </div>
   );
 }
