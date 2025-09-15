@@ -5,10 +5,11 @@ Compare with [Streamdown](https://github.com/vercel/streamdown) vs [react-markdo
 | Feature                     | Streamdown | react-markdown |
 |-----------------------------|------------|----------------|
 | Basic Markdown Support      | ✅         | ✅               |
-| Plugin(remarkPlugins and rehypePlugins)           |           |  ✅             |
 | Streaming(Unterminated block parsing)         |  ✅         | ❌             |
+| Plugin(remarkPlugins and rehypePlugins)           |  ✅ (have problem with remarkToc)        |  ✅             |
+| Use customize components to replace tags         |  ✅         |  ✅             |
 | GitHub Flavored Markdown               | ✅        | ✅ (Support with Plugin)              |
-| Security(XSS Prevention)               |          |              |
+| Security(XSS Prevention)               | ✅        | ✅           |
 
 ## Run Locally
 ```bash

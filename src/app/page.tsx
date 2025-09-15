@@ -2,6 +2,8 @@
 import BasicMarkdown from "@/components/basic-markdown";
 import UnterminatedBlockParsing from "@/components/unterminated-block-parsing";
 import GitHubFlavoredMarkdown from "@/components/github-flavored-markdown";
+import Plugin from "@/components/plugin";
+
 export default function Home() {
   return (
     <div className="px-4">
@@ -13,6 +15,9 @@ export default function Home() {
 
       <h2>GitHub Flavored Markdown</h2>
       <GitHubFlavoredMarkdown />
+
+      <h2>Plugin(remarkPlugins and rehypePlugins)</h2>
+      <Plugin />
     </div>
   );
 }
