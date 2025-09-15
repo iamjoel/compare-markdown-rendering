@@ -1,0 +1,33 @@
+/* Reset streamdown styles by set [data-streamdown='xxx'] */
+[data-streamdown=heading-1],
+.react-markdown h1 {
+  @apply mt-6 mb-2 font-semibold text-3xl;
+}
+
+.react-markdown h2 {
+  @apply mt-6 mb-2 font-semibold text-2xl;
+}
+
+.react-markdown h3 {
+  @apply mt-6 mb-2 font-semibold text-xl;
+}
+
+.react-markdown h4 {
+  @apply mt-6 mb-2 font-semibold text-lg;
+}
+
+.react-markdown h5 {
+  @apply mt-6 mb-2 font-semibold text-base;
+}
+
+.react-markdown h6 {
+  @apply mt-6 mb-2 font-semibold text-sm;
+}
+
+.react-markdown a {
+  @apply font-medium text-primary underline;
+}
+
+.react-markdown code {
+  @apply rounded bg-muted px-1.5 py-0.5 font-mono text-sm
+}
