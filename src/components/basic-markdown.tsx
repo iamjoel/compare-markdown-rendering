@@ -1,4 +1,4 @@
-import basicMarkdown from './constant/basic-markdown'
+import basicMarkdown from './test-case/basic-markdown'
 import ReactMarkdown from 'react-markdown'
 import { Streamdown } from 'streamdown'
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from './ui/card'
@@ -29,7 +29,7 @@ const BasicMarkdown = () => {
         </CardContent>
         <CardFooter>
           <div className='text-sm text-muted-foreground'>
-            <p>Streamdown would set the class name for elements. Errors:</p>
+            <p>Built-in typography styles.Streamdown would set the class name for elements. Errors:</p>
             <p>Link inside code parse error([\`code\`](#code))</p>
             <p>Download element is tag div that is in the tag p that caused problems.</p>
           </div>
