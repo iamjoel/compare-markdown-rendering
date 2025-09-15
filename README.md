@@ -16,3 +16,5 @@ Compare with [Streamdown](https://github.com/vercel/streamdown) vs [react-markdo
 pnpm install
 pnpm dev
 ```
+
+visit: http://localhost:3000
