@@ -2,7 +2,7 @@ import githubFlavoredMarkdown from './test-case/github-flavored-markdown'
 import RemarkGfm from 'remark-gfm'
 import ReactMarkdown from 'react-markdown'
 import { Streamdown } from 'streamdown'
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from './ui/card'
+import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
 
 const BasicMarkdown = () => {
   return (

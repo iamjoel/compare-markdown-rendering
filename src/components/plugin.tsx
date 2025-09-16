@@ -9,6 +9,7 @@ import remarkGfm from 'remark-gfm';
 import { Button } from '@/components/ui/button'
 import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math';
+import { HTMLProps } from 'react';
 
 // support Button in markdown
 const schema = {
@@ -36,6 +37,7 @@ const BasicMarkdown = () => {
                 [rehypeSanitize, schema],
                 rehypeKatex
               ]}
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
               components={{ button: (props: any) => <Button {...props} /> }}
             >
               {textWithPluginContent}
@@ -58,6 +60,7 @@ const BasicMarkdown = () => {
               // [rehypeSanitize, schema],
               // rehypeKatex
             ]}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             components={{ button: (props: any) => <Button {...props} /> }}
           >
             {textWithPluginContent}

@@ -1,7 +1,7 @@
 import { unterminatedBold, unterminatedCodeBlock, unterminatedInlineCode, unterminatedItalic, unterminatedLink } from './test-case/unterminated-block-parsing'
 import ReactMarkdown from 'react-markdown'
 import { Streamdown } from 'streamdown'
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from './ui/card'
+import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
 
 const BasicMarkdown = () => {
   return (
